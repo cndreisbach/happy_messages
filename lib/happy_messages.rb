@@ -8,6 +8,7 @@ module HappyMessages
       before_filter :setup_messages
       helper HappyMessages::MessagesHelper
       attr_reader :messages
+      hide_action :messages
     end    
   end
 
